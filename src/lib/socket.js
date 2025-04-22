@@ -8,7 +8,7 @@ import { Server } from "socket.io";
 
  const io = new Server(server, {
     cors: {
-        origin: ["http://localhost:5173"]
+        origin: ["http://localhost:5173","https://chat-app-frontend-4h22.onrender.com"]
     }
  })
 

@@ -19,7 +19,7 @@ const PORT = process.env.PORT
 app.use(express.json()) //extract json data out of body
 app.use(cookieParser()) //allow us to parse the cookie
 app.use(cors({
-    origin: true,
+    origin: ["http://localhost:5173","https://chat-app-frontend-4h22.onrender.com"],
     credentials: true
 
 }
